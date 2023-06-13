@@ -52,14 +52,14 @@ module "security" {
 
 #====================================
 
-module "bastion" {
-  source = "./modules/bastion"
+# module "bastion" {
+#   source = "./modules/bastion"
 
-  depends_on = [
-    module.network,
-    module.security
-  ]
-}
+#   depends_on = [
+#     module.network,
+#     module.security
+#   ]
+# }
 
 #====================================
 
