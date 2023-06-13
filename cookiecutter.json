@@ -15,7 +15,6 @@
     
     "az_storage_account_name": "{{cookiecutter.project_slug}}0data",
     "az_vnet_name":"{{cookiecutter.project_slug}}-vnet",
-    "az_rg_name":"{{cookiecutter.project_slug}}-rg",
  
     "az_location":"francecentral",
 

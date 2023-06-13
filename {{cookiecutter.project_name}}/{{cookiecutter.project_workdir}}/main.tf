@@ -44,6 +44,9 @@ module "network" {
 module "security" {
   source = "./modules/security"
 
+  az_location = var.az_location
+  az_rg_name = var.az_rg_name
+  az_az_storage_name = var.az_az_storage_name 
 
   depends_on = [
     module.network
