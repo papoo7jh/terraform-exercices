@@ -1,0 +1,23 @@
+{
+    "name": "Oumar Makan CAMARA",
+    "acronyme": "omc",
+
+    "project_name": "{{cookiecutter.acronyme}}-Terraform-exercices",
+    "project_workdir": "terraform",
+    "project_slug":"{{cookiecutter.acronyme}}0tf",
+    "description": "Exercices de Terraform",
+    "project_env": "staging",
+
+    "current_storage_name":"omc0tf",
+    "az_storage_account_name": "{{cookiecutter.project_slug}}0data",
+    "az_vnet_name":"{{cookiecutter.project_slug}}-vnet",
+    "az_rg_name":"{{cookiecutter.project_slug}}-rg",
+    "az_storage_container_name":"tfstate",
+    "az_storage_container_key":"prod.terraform",
+    "az_location":"francecentral",
+
+    "school_name": "Dili@supDeVinci",
+    "player_team": ["Dev Player", "Network Player", "Cloud Player"],
+    "email": "papoo7jh@gmail.com",
+    "intervenant": "oumar-mcamara@outlook.com"
+}

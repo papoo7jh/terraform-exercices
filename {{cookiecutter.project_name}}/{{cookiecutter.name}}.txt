@@ -1,0 +1,13 @@
+## ABOUT ME:
+{% if cookiecutter.player_team == 'Dev Player' %}
+* {{cookiecutter.name}}, Yes ! I am a Dev Player on Terraform
+
+
+{% elif cookiecutter.player_team == 'Network Player' %}
+* {{cookiecutter.name}}, Yes ! I am a Dev Player on Terraform
+
+
+{% elif cookiecutter.player_team == 'Cloud Player' %}
+* {{cookiecutter.name}}, Yes ! I am a Dev Player on Terraform
+
+{% endif %}
