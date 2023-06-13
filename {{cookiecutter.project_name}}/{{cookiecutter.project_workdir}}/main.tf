@@ -13,7 +13,7 @@ terraform {
       resource_group_name  = "{{cookiecutter.current_rg_name}}"
       storage_account_name = "{{cookiecutter.current_storage_account_name}}"
       container_name       = "{{cookiecutter.current_storage_container_name}}"
-      key                  = "{{current_storage_container_key}}"
+      key                  = "{{cookiecutter.current_storage_container_key}}"
     }
 }
 
