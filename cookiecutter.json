@@ -11,7 +11,7 @@
     "current_rg_name":"omc0tf-rg",
     "current_storage_account_name":"omc0tf",
     "current_storage_container_name":"tfstate",
-    "current_storage_container_key":"prod.terraform",
+    "current_storage_container_key":"prod.terraform.tfstate",
     
     "az_storage_account_name": "{{cookiecutter.project_slug}}0data",
     "az_vnet_name":"{{cookiecutter.project_slug}}-vnet",
