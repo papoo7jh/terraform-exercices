@@ -8,12 +8,15 @@
     "description": "Exercices de Terraform",
     "project_env": "staging",
 
-    "current_storage_name":"omc0tf",
+    "current_rg_name":"omc0tf-rg",
+    "current_storage_account_name":"omc0tf",
+    "current_storage_container_name":"tfstate",
+    "current_storage_container_key":"prod.terraform",
+    
     "az_storage_account_name": "{{cookiecutter.project_slug}}0data",
     "az_vnet_name":"{{cookiecutter.project_slug}}-vnet",
     "az_rg_name":"{{cookiecutter.project_slug}}-rg",
-    "az_storage_container_name":"tfstate",
-    "az_storage_container_key":"prod.terraform",
+ 
     "az_location":"francecentral",
 
     "school_name": "Dili@supDeVinci",
