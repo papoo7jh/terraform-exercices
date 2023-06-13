@@ -4,10 +4,10 @@
 
 
 {% elif cookiecutter.player_team == 'Network Player' %}
-* {{cookiecutter.name}}, Yes ! I am a Dev Player on Terraform
+* {{cookiecutter.name}}, Yes ! I am a Network Player on Terraform
 
 
 {% elif cookiecutter.player_team == 'Cloud Player' %}
-* {{cookiecutter.name}}, Yes ! I am a Dev Player on Terraform
+* {{cookiecutter.name}}, Yes ! I am a Cloud Player on Terraform
 
 {% endif %}
