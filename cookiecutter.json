@@ -3,10 +3,10 @@
     "acronyme": "omc",
 
     "project_name": "{{cookiecutter.acronyme}}-Terraform-exercices",
-    "project_workdir": "terraform",
+    "project_workdir": "terraform-azure",
     "project_slug":"{{cookiecutter.acronyme}}0tf",
-    "description": "Exercices de Terraform",
-    "project_env": "staging",
+    "description": "Exercices de Terraform sur Microsoft Azure",
+    "project_env": ["dev", "staging", "prod"],
 
     "current_rg_name":"omc0tf-rg",
     "current_storage_account_name":"omc0tf",
